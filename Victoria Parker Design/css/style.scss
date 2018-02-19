@@ -1,0 +1,119 @@
+body {
+  background-color: #D6DED3;
+  font-family: "Nanum Gothic";
+}
+
+header {
+  background-color: #0D2227;
+  padding: 100px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: "Nanum Gothic";
+  font-size: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 50px;
+}
+
+.resumepic img {
+	width: 400px;
+	height: 267px;
+}
+
+.resume {
+	width: 400px;
+	height: 267px;
+	background-color: #7EAABA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -271px;
+  left: 0px;
+}
+
+.resume:hover {
+  transition: opacity 1s;
+  opacity: .5;
+}
+
+.resume a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 50px;
+  transition: all 350ms ease-in-out;
+  transition: opacity: 0.5 ease;
+}
+
+.portfoliopic img {
+	width: 400px;
+	height: 267px;
+  // How do you make the img not stretch?
+}
+
+.portfolio {
+	width: 400px;
+	height: 267px;
+	background-color: #7EAABA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 271px;
+  left: 0px;
+}
+
+.portfolio:hover {
+  transition: opacity 1s;
+  opacity: .5;
+}
+
+.portfolio a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+.contactpic img {
+	width: 400px;
+	height: 267px;
+}
+
+.contact {
+	width: 400px;
+	height: 267px;
+	background-color: #7EAABA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -271px;
+  left: 0px;
+}
+
+.contact:hover {
+  transition: opacity 1s;
+  opacity: .5;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
