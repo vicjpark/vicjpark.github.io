@@ -1,6 +1,6 @@
 body {
   background-color: #3E454C;
-  /* margin: auto; */
+  margin: auto;
 }
 
 nav a {
@@ -38,13 +38,13 @@ nav {
 }
 
 /* .nav666 {
-  background-color: #FFFFFF;
-  width: 150px;
-  height: 35px;
-  margin-top: 50px;
-  margin-top: 20px;
-  position: relative;
-  top: 20px;
+background-color: #FFFFFF;
+width: 150px;
+height: 35px;
+margin-top: 50px;
+margin-top: 20px;
+position: relative;
+top: 20px;
 } */
 
 .button1:hover, .button2:hover, .button3:hover {
@@ -97,7 +97,6 @@ h4 {
   text-align: center;
   letter-spacing: 1px;
   font-weight: lighter;
-
 }
 
 footer {
@@ -105,9 +104,6 @@ footer {
   background-color: #FF7F66;
   padding: 1px;
   margin-bottom: 0px;
-  /* position: sticky;
-  bottom: 0px;
-  z-index: 1; */
 }
 
 h5 {
@@ -121,13 +117,14 @@ h5 {
 }
 
 .at {
-  margin: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .carousel-wrapper, .carousel-wrapper1 {
   margin-right: 50px;
   margin-left: 50px;
-  margin-top: -150px;
+  margin-top: 0px;
 }
 
 img {
@@ -213,9 +210,30 @@ MEDIA QUERIES
 
 @media screen and (max-width: 910px) {
   h1 {
-  font-size: 100px;
-  position: relative;
-  top: 120px;
+    font-size: 100px;
+    position: relative;
+    top: 120px;
+  }
+  h2 {
+    font-size: 17px;
+    position: relative;
+    top: 130px;
+  }
+  .button1, .button2, .button3 {
+    padding: 15px 32px;
+    width: 100px;
+    height: 26px;
+  }
+  .button1, .button2 {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 100px;
+    position: relative;
+    top: 120px;
   }
   h2 {
     font-size: 17px;
@@ -234,9 +252,9 @@ MEDIA QUERIES
 
 @media screen and (max-width: 414px) {
   h1 {
-  font-size: 97px;
-  position: relative;
-  top: 120px;
+    font-size: 97px;
+    position: relative;
+    top: 120px;
   }
   h2 {
     font-size: 19px;
@@ -255,13 +273,42 @@ MEDIA QUERIES
   nav a {
     font-size: 14px;
   }
+  h3 {
+    font-size: 45px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  .carousel-wrapper, .carousel-wrapper1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -25px;
+  }
+  #first {
+    margin-top: 90px;
+  }
+  img {
+    max-height: 245px;
+  }
+  .at {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  h5 {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
 }
 
 @media screen and (max-width: 411px) {
   h1 {
-  font-size: 90px;
-  position: relative;
-  top: 120px;
+    font-size: 90px;
+    position: relative;
+    top: 120px;
   }
   h2 {
     font-size: 18px;
@@ -280,13 +327,42 @@ MEDIA QUERIES
   nav a {
     font-size: 14px;
   }
+  h3 {
+    font-size: 45px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  .carousel-wrapper, .carousel-wrapper1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -25px;
+  }
+  #first {
+    margin-top: 90px;
+  }
+  img {
+    max-height: 245px;
+  }
+  .at {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  h5 {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
 }
 
 @media screen and (max-width: 375px) {
   h1 {
-  font-size: 80px;
-  position: relative;
-  top: 120px;
+    font-size: 80px;
+    position: relative;
+    top: 120px;
   }
   h2 {
     font-size: 16px;
@@ -305,13 +381,19 @@ MEDIA QUERIES
   nav a {
     font-size: 12px;
   }
+  img {
+    max-height: 220px;
+  }
+  h3 {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 360px) {
   h1 {
-  font-size: 80px;
-  position: relative;
-  top: 120px;
+    font-size: 80px;
+    position: relative;
+    top: 120px;
   }
   h2 {
     font-size: 16px;
@@ -329,14 +411,44 @@ MEDIA QUERIES
   }
   nav a {
     font-size: 12px;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 37px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+  .carousel-wrapper, .carousel-wrapper1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -25px;
+  }
+  #first {
+    margin-top: 70px;
+  }
+  img {
+    max-height: 205px;
+  }
+  .at {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  h5 {
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: .5px;
   }
 }
 
 @media screen and (max-width: 320px) {
   h1 {
-  font-size: 74px;
-  position: relative;
-  top: 120px;
+    font-size: 74px;
+    position: relative;
+    top: 120px;
   }
   h2 {
     font-size: 14px;
@@ -354,5 +466,8 @@ MEDIA QUERIES
   }
   nav a {
     font-size: 12px;
+  }
+  img {
+    max-height: 175px;
   }
 }

@@ -1,6 +1,6 @@
-// $(document).ready(function() {
-//   $('h2').hide().delay(2000).fadeIn(4000);
-//   $('#home').hide().delay(5000).fadeIn(4000);
+$(document).ready(function() {
+  $('h2').hide().delay(2000).fadeIn(4000);
+  $('#home').hide().delay(5000).fadeIn(4000);
   // I really like the effect on my home page, but is there a way I can make it so that it only happens ONE time when the user opens my site and then it never does the effect again?
 });
 
